@@ -88,15 +88,6 @@ body {
   background: #222;
   padding: .5rem 1rem;
 }
-.window-controls .dot {
-  display: inline-block;
-  width: .8rem; height: .8rem;
-  border-radius: 50%;
-  margin-right: .4rem;
-}
-.dot.red    { background: #f25f58; }
-.dot.yellow { background: #fdbc40; }
-.dot.green  { background: #33c948; }
 .window-header h2 {
   flex: 1;
   text-align: center;
@@ -141,11 +132,6 @@ body {
 .file p {
   font-size: .85rem;
   color: #ddd;
-}
-#back-btn {
-  cursor: pointer;
-  font-family: monospace;
-  color: #F0474A;
 }
 #experience-view {
   padding: 4rem 1rem;
@@ -268,4 +254,13 @@ body {
   height: auto;
   border-radius: 4px;
   object-fit: cover;
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #F0474A;
+  padding: 0 0.5rem;
+  line-height: 1;
 }
