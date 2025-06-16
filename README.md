@@ -1,2 +1,23 @@
 # PortfolioWebsite
-This is a demo project to showcase my web development skills and highlight some of my work. Please note, this is not my official portfolio.
+
+A demo project to showcase my web development skills and highlight some of my work.  
+**Please note, this is not my official portfolio.**
+
+## Overview
+
+This is my very first beginner-level web project, built to get hands-on experience with the fundamentals of web development: structuring content with HTML, styling with CSS and adding interactivity with JavaScript.
+
+## Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Leg3ndEntity/PortfolioWebsite.git
+   ```
+2. **Open** `index.html` in your browser.  
+
+## Next Steps & Ideas
+
+- **Interactive 3D models**: showcasing my 3D creations  
+- **University projects**: academic assignments and group work
+- **Contact form integration**: to collect messages.  
