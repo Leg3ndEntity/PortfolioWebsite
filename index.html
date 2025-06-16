@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simone Sarnataro - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="hero">
+    <h1>Simone Sarnataro</h1>
+    <p class="subtitle">PORTFOLIO</p>
+  </section>
+
+  <section class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>../About Me..</h2>
+        <p>Hi, I am a computer engineering student with a background in graphic design. I am passionate about
+          creating user‐centred digital products that blend technology and creativity.</p>
+        <p>I'm always eager to learn, improve my technical skills and contribute to meaningful, collaborative
+          projects.</p>
+      </div>
+      <div class="about-image">
+        <img src="img/avatar.jpg" alt="Me at work">
+      </div>
+    </div>
+  </section>
+
+  <section class="desktop-portfolio">
+    <div class="desktop-window">
+      <header class="window-header">
+        <div class="window-controls">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <h2>~/Portfolio</h2>
+      </header>
+      <div class="icon-grid">
+        <div class="icon" data-folder="code">
+          <img src="img/code-icon.png" alt="Code Project">
+          <p>Code</p>
+        </div>
+        <div class="icon" data-folder="design">
+          <img src="img/design-icon.png" alt="Design Project">
+          <p>Design</p>
+        </div>
+        <div class="icon" id="experience">
+          <img src="img/experience-icon.png" alt="Experiences">
+          <p>experiences.md</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="folder-view" class="desktop-portfolio hidden">
+    <div class="desktop-window folder-window">
+      <header class="window-header">
+        <div class="window-controls">
+          <span id="back-btn" class="dot green" title="Back">←</span>
+        </div>
+        <h2 id="folder-path">~/Portfolio</h2>
+      </header>
+      <div class="icon-grid file-grid"></div>
+    </div>
+  </section>
+
+  <div id="file-view" class="hidden">
+    <div class="file-window">
+      <header class="file-header">
+        <button id="file-close-btn" class="close-btn">✕</button>
+        <h2>experiences.md</h2>
+      </header>
+      <div class="file-body">
+        <pre id="experience-content">
+# Experiences
+
+## Apple Developer Academy – Pier Program
+        
+**July 2024 – June 2025**
+        
+As the designated coder, I was responsible not only for the technical development of iOS applications using Swift and SwiftUI, but also for:
+        
+* Writing clear, maintainable code and documenting all modules.
+* Implementing and executing unit/UI tests to ensure functionality and reliability.
+* Collaborating in a professional Agile environment, following Scrum methodology.
+* Participating in code reviews and continuous integration workflows.
+        
+**Field Testing in Johannesburg**
+Through the Pier Program’s collaboration with iSchoolAfrica—a non-profit dedicated to expanding access to quality education in rural African schools—I traveled with my team to Johannesburg to test the product on the ground with its intended users.
+        
+        
+## European Heritage Network on Tour – Erasmus+
+        
+**November 2019 – December 2019**
+        
+I took part in a month-long Erasmus+ program in Lisbon organized by the Calouste Gulbenkian Foundation, an international institution committed to art, culture, and education. During this program, I:
+        
+* Completed 60 hours of training delivered by specialists in cultural heritage, arts, history, science, and citizenship values.
+* Engaged in guided visits to key heritage sites across Portugal.
+* Collaborated on group projects focusing on digital tools for heritage promotion.
+        </pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
